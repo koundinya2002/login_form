@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login (dark theme)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="box">
+        <span class="heading">WebsiteName</span>
+        <span class="sub_heading">Login to your account.</span>
+        <form class="main" action="#">
+            <section class="spacing">
+                <span>
+                    <label>Email</label>
+                    <input class="fields" type="text">
+                    *we will never share your email with anyone
+                </span>
+                <span>
+                    <label>Password</label>
+                    <input class="fields" id="myInput" type="password">
+                    <input type="checkbox" onclick="myFunction()">Show Password
+                </span>
+            </section>
+            <button class="in" type="submit">login</button>
+        </form>
+    </div>
+</body>
+</html>
